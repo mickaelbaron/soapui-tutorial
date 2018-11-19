@@ -39,11 +39,11 @@ Le site de la National Oceanic and Atmospheric Administration’s ([NOAA](http:/
 
 * Dans le champ *Initial WSDL/WADL*, saisir la précédente adresse de la description du service web SOAP : `http://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl`.
 
-![Nouveau Projet SOAP-UI](./images/new_soapui_project.png "Nouveau Projet SOAP-UI")
+![Nouveau Projet SOAP-UI](./images/ex1-new_soapui_project.png "Nouveau Projet SOAP-UI")
 
 Une fois le projet créé, **SOAP-UI** génère toutes les opérations disponibles et crée un squelette de chaque requête.
 
-![Operations disponibles](./images/all_operations.png "Operations disponibles")
+![Operations disponibles](./images/ex1-all_operations.png "Operations disponibles")
 
 * Nous pouvons dès à présent invoquer une opération de ce service web SOAP. Double-cliquer sur le nœud relatif à l’opération `LatLonListZipCode` puis sur le sous-nœud *Request 1*. Cette opération retourne des couples de valeurs *Latitude/Longitude* en fonction d’une liste de codes postaux américains.
 

@@ -86,7 +86,7 @@ context["latlon"] = latlon
 
 * Exécuter la suite de test et s’assurer que dans la console de log la *latitude* et la *longitude* soient correctement affichées.
 
-![LatLonListZipCode script](./images/ex3-script_log.png "LatLonListZipCode script")
+![LatLonListZipCode script](./images/ex3-script2_log.png "LatLonListZipCode script")
 
 * Ajouter au cas de tests la requête de l’opération `NDFDgenByDayLatLonList`. Une quatrième étape a été ajoutée dans le cas de test.
 
