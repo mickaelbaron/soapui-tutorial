@@ -41,7 +41,7 @@ log.info("zipCode : " + zipCode)
 
 * Modifier le contenu du fichier de la manière suivante.
 
-```shellscript
+```bash
 startDate = 2018-11-17
 zipCode = 10001
 ```
