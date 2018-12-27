@@ -16,6 +16,10 @@ Avant de démarrer cette série d'exercices sur l'utilisation de SOAP-UI, veuill
 
 ## Ressources
 
+Retrouver la précédente leçon :
+
+* [Tutoriel sur JAX-WS pour implémenter des services web étendus/SOAP](https://github.com/mickaelbaron/jaxws-tutorial).
+
 Pour aller plus loin, vous pouvez consulter les ressources suivantes :
 
 * [Support de cours SOA](http://mbaron.developpez.com/soa/intro/ "Support de cours SOA") ;
