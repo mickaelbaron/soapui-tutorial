@@ -1,4 +1,4 @@
-# Exercice 4 (SOAP-UI) : simuler un service web SOAP à partir de sa description WSDL
+# Exercice 4 (SoapUI) : simuler un service web SOAP à partir de sa description WSDL
 
 La simulation d’un service web SOAP est utilisée dans le cas où l’implémentation du service web n’est pas encore disponible ou si le service web SOAP est actuellement dans un état d’indisponibilité (serveur indisponible dû à une défaillance). Dans cet exercice nous considérons que l’appel à l’opération `LatLonListZipCode` n’est plus autorisé (opération en maintenance). Par conséquent nous mettons en place une simulation du comportement de cette opération.
 

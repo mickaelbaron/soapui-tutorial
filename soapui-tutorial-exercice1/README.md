@@ -1,15 +1,15 @@
-# Exercice 1 (SOAP-UI) : inspecter et invoquer des services web
+# Exercice 1 (SoapUI) : inspecter et invoquer des services web
 
 Le site de la National Oceanic and Atmospheric Administration’s ([NOAA](http://mbaron.developpez.com/soa/intro/ "National Oceanic and Atmospheric Administration")) est un service du gouvernement des Etats-Unis qui fournit un accès à la base complète des conditions climatiques sur le sol américains. La NOAA fournit par le biais d’un service web SOAP des opérations permettant d’interroger cette base pour connaître, par exemple, le temps dans une région donnée. Dans cet exercice nous nous intéressons à appeler des opérations pour afficher les conditions météorologiques sur la ville de Manhattan. Consultez cette page <http://graphical.weather.gov/xml> pour obtenir des informations sur le service web SOAP.
 
 ## But
 
-* Construire un projet SOAP-UI à partir de la description WSDL d’un service web SOAP.
+* Construire un projet SoapUI à partir de la description WSDL d’un service web SOAP.
 * Invoquer des opérations d'un service web SOAP.
 
 ## Étapes à suivre
 
-* Avant d’utiliser l’outil SOAP-UI, nous souhaitons vérifier que le document WSDL du service web SOAP de la NOAA est disponible. Par ailleurs, cela nous permettra de visualiser ce document. Ouvrir une instance de votre navigateur puis saisir l’URL : <http://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl>.
+* Avant d’utiliser l’outil SoapUI, nous souhaitons vérifier que le document WSDL du service web SOAP de la NOAA est disponible. Par ailleurs, cela nous permettra de visualiser ce document. Ouvrir une instance de votre navigateur puis saisir l’URL : <http://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl>.
 
 ```xml
 ...
@@ -33,15 +33,15 @@ Le site de la National Oceanic and Atmospheric Administration’s ([NOAA](http:/
 
 * Examiner le document WSDL en identifiant clairement les opérations disponibles.
 
-* Démarrer ensuite l'outil **SOAP-UI** et construire un nouveau projet via le menu **File -> New soapUI Project**.
+* Démarrer ensuite l'outil **SoapUI** et construire un nouveau projet via le menu **File -> New soapUI Project**.
 
 * Dans le champ *Project Name*, saisir le nom du projet `SOA-Labs1-NOAA`, puis valider (laisser les autres paramètres par défaut).
 
 * Dans le champ *Initial WSDL/WADL*, saisir la précédente adresse de la description du service web SOAP : `http://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php?wsdl`.
 
-![Nouveau Projet SOAP-UI](./images/ex1-new_soapui_project.png "Nouveau Projet SOAP-UI")
+![Nouveau Projet SoapUI](./images/ex1-new_soapui_project.png "Nouveau Projet SoapUI")
 
-Une fois le projet créé, **SOAP-UI** génère toutes les opérations disponibles et crée un squelette de chaque requête.
+Une fois le projet créé, **SoapUI** génère toutes les opérations disponibles et crée un squelette de chaque requête.
 
 ![Operations disponibles](./images/ex1-all_operations.png "Operations disponibles")
 

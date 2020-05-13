@@ -1,6 +1,6 @@
-# SOAP-UI Tutoriel
+# SoapUI Tutoriel
 
-L’objectif de cette leçon est d’apprendre à inspecter et à invoquer un service web via l’outil SOAP-UI. La leçon insiste sur la découverte des standards WSDL et SOAP et sur l’outillage proposé par SOAP-UI pour réaliser des tests fonctionnels (simulation, test de performance, validation de messages SOAP...).
+L’objectif de cette leçon est d’apprendre à inspecter et à invoquer un service web via l’outil SoapUI. La leçon insiste sur la découverte des standards WSDL et SOAP et sur l’outillage proposé par SoapUI pour réaliser des tests fonctionnels (simulation, test de performance, validation de messages SOAP...).
 
 Cette leçon est inspirée des articles publiés par Meera SUBBARAO sur le site de DZone (https://architects.dzone.com/users/meera).
 
@@ -10,9 +10,9 @@ Cette leçon est inspirée des articles publiés par Meera SUBBARAO sur le site 
 
 ## Prérequis logiciels
 
-Avant de démarrer cette série d'exercices sur l'utilisation de SOAP-UI, veuillez préparer votre environnement de tests en installant :
+Avant de démarrer cette série d'exercices sur l'utilisation de SoapUI, veuillez préparer votre environnement de tests en installant :
 
-* [SOAP-UI](https://www.soapui.org/ "SOAP-UI").
+* [SoapUI](https://www.soapui.org/ "SoapUI").
 
 ## Ressources
 
@@ -35,4 +35,4 @@ Pour aller plus loin, vous pouvez consulter les ressources suivantes :
 * [Support de cours sur la mise en œuvre de technologies de Streaming HTTP avec le langage Java](https://mickael-baron.fr/soa/streaminghttp-mise-en-oeuvre) ;
 * [Support de cours sur une introduction aux architectures microservices](https://mickael-baron.fr/soa/introduction-microservices "Support de cours sur une introduction aux architectures microservices") ;
 * [Support de cours sur les outils et bibliothèques pour la mise en œuvre d'architectures microservices](https://mickael-baron.fr/soa/microservices-mise-en-oeuvre "Support de cours sur les outils et bibliothèques pour la mise en œuvre d'architectures microservices") ;
-* Série de tutoriels de Meera SUBBARAO sur SOAP-UI : [tutoriel 1](https://architects.dzone.com/articles/functional-web-services-1 "tutoriel 1"), [tutoriel 2](https://architects.dzone.com/articles/functional-web-services-2 "tutoriel 2") et [tutoriel 3](https://architects.dzone.com/articles/functional-web-services-3 "tutoriel 3").
+* Série de tutoriels de Meera SUBBARAO sur SoapUI : [tutoriel 1](https://architects.dzone.com/articles/functional-web-services-1 "tutoriel 1"), [tutoriel 2](https://architects.dzone.com/articles/functional-web-services-2 "tutoriel 2") et [tutoriel 3](https://architects.dzone.com/articles/functional-web-services-3 "tutoriel 3").
