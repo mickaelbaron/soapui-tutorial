@@ -1,11 +1,11 @@
-# Exercice 3 (SOAP-UI) : construire une suite de tests complexe (TestSuite)
+# Exercice 3 (SoapUI) : construire une suite de tests complexe (TestSuite)
 
 Dans l'exercice 2, nous avons vu comment créer des cas de tests en ajoutant des assertions pour vérifier le bon fonctionnement d’une opération. Toutefois, dans les tests précédents l’enchaînement des opérations se fait de manière manuelle. La sortie d’une opération est transférée dans l’entrée d’une autre opération. Nous montrons ainsi dans cet exercice comment enchaîner les invocations des opérations `LatLonListZipCode` et `NDFDgenByDayLatLonList` en utilisant des scripts pour transférer automatiquement la sortie à l’entrée d’une opération.
 
 ## But
 
 * Enchainer des appels à des opérations en séquence.
-* Écrire des scripts SOAP-UI via le langage Groovy.
+* Écrire des scripts SoapUI via le langage Groovy.
 
 ## Étapes à suivre
 
@@ -13,7 +13,7 @@ Dans l'exercice 2, nous avons vu comment créer des cas de tests en ajoutant des
 
 * Définir dans cette suite de tests un cas de test nommé `LatLonListZipCode - NDFDgenByDayLatLonList TestCase`.
 
-* Pour initialiser les entrées de l’opération `LatLonListZipCode` un fichier de propriétés est utilisé contenant la date de départ (*startDate*) et le code postal (*zipCode*). Ces valeurs sont chargées puis stockées dans la suite de tests. De cette façon pour changer les paramètres d’invocation il n’est plus nécessaire de modifier la configuration du projet **SOAP-UI**. Au niveau du nœud du cas de test, faire bouton droit de la souris, puis **Add Step** et enfin **Properties** (laisser le nom par défaut).
+* Pour initialiser les entrées de l’opération `LatLonListZipCode` un fichier de propriétés est utilisé contenant la date de départ (*startDate*) et le code postal (*zipCode*). Ces valeurs sont chargées puis stockées dans la suite de tests. De cette façon pour changer les paramètres d’invocation il n’est plus nécessaire de modifier la configuration du projet **SoapUI**. Au niveau du nœud du cas de test, faire bouton droit de la souris, puis **Add Step** et enfin **Properties** (laisser le nom par défaut).
 
 * Une nouvelle fenêtre **Properties** est affichée. Créer une propriété *startDate* dont la valeur par défaut est `2018-MM-DD` (jour qui suit la date du jour). Créer une seconde propriété `zipCode` dont la valeur par défaut est `10001`. Le résultat attendu est celui présenté sur la figure ci-dessous.
 

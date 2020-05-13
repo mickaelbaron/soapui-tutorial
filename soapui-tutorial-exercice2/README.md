@@ -1,4 +1,4 @@
-# Exercice 2 (SOAP-UI) : construire une suite de tests simple (TestSuite)
+# Exercice 2 (SoapUI) : construire une suite de tests simple (TestSuite)
 
 La création d’une suite de tests permet d’enchaîner un ensemble de cas de tests (TestCase). Un cas de test regroupe un ensemble d’étapes à réaliser. Cela peut correspondre par exemple à l’invocation d’une ou plusieurs opérations de service web SOAP. Cet exercice montre comment invoquer une opération et vérifier des assertions (contraintes qui doit être vérifiées) à travers une suite de tests.
 
@@ -29,7 +29,7 @@ La création d’une suite de tests permet d’enchaîner un ensemble de cas de 
 
 ![Simple TestSuite Checked](./images/ex2-simple_testsuite_checked.png "Simple TestSuite Checked")
 
-* À ce stade, seule l’exécution de l’opération est vérifiée. Une assertion peut être associée au résultat de manière à garantir que le test a réussi ou pas. Par défaut, seule l’assertion SOAP Response est définie. Cette assertion vérifie qu’un message SOAP est correctement retourné au client **SOAP-UI**. Double-cliquer sur la requête du cas de test `LatLonListZipCode TestCase` pour ouvrir le contenu de la requête SOAP.
+* À ce stade, seule l’exécution de l’opération est vérifiée. Une assertion peut être associée au résultat de manière à garantir que le test a réussi ou pas. Par défaut, seule l’assertion SOAP Response est définie. Cette assertion vérifie qu’un message SOAP est correctement retourné au client **SoapUI**. Double-cliquer sur la requête du cas de test `LatLonListZipCode TestCase` pour ouvrir le contenu de la requête SOAP.
 
 ![LatLonListZipCode TestCase](./images/ex2-latlonlistzipcode_testcase.png "LatLonListZipCode TestCase")
 

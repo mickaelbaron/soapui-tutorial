@@ -1,4 +1,4 @@
-# SOAP-UI Tutoriel
+# SoapUI Tutoriel
 
 L’objectif de cette leçon est d’apprendre à inspecter et à invoquer un service web via l’outil SOAP-UI. La leçon insiste sur la découverte des standards WSDL et SOAP et sur l’outillage proposé par SOAP-UI pour réaliser des tests fonctionnels (simulation, test de performance, validation de messages SOAP...).
 
