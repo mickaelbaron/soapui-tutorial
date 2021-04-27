@@ -55,6 +55,6 @@ Une fois le projet créé, **SOAP-UI** génère toutes les opérations disponibl
 
 * Vérifier le résultat de la réponse, vous devriez obtenir des informations concernant la prévision météorologique sur la ville de New York (température, type de temps...).
 
-* Invoquer l’opération `NDFDgenByDayLatLonList` qui retourne des informations météorologiques en fonction d’une liste de couple valeurs *latitude/longitude*, une *date*, une *durée* et un *format de date*. Récupérer les informations météorologiques de la ville de New York (`40.7198,-73.993`) et de la municipalité de Beverly Hills (*code zip* : `90210`). Les éléments de la liste *latitude/longitude* sont séparés par une virgule sans **espace**.
+* Invoquer l’opération `NDFDgenByDayLatLonList` qui retourne des informations météorologiques en fonction d’une liste de couple valeurs *latitude/longitude*, une *date*, une *durée* et un *format de date*. Récupérer les informations météorologiques de la ville de New York (`40.7198,-73.993`) et de la municipalité de Beverly Hills (*code zip* : `90210`). Les éléments de la liste *latitude/longitude* sont séparés par un **espace**.
 
 * Vérifier de nouveau le résultat obtenu. Vous devriez obtenir des informations concernant les prévisions météorologiques sur la ville de New York et sur la municipalité de Beveryly Hills.
